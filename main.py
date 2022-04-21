@@ -3,6 +3,7 @@ import string
 import requests
 import os
 import signal
+import time
 
 from termcolor import colored
 
@@ -56,6 +57,17 @@ def checkurl():
 def main():
     """Main function of tool"""
 
+    print("""\033[91m
+
+
+█ █▄░█ █▀ ▀█▀ ▄▀█ █▀▀ █▀█ ▄▀█ █▀▄▀█   ▄▀█ █▀▀ █▀▀ █▀█ █░█ █▄░█ ▀█▀   ▀█▀ ▄▀█ █▄▀ █▀▀ █▀█ █░█ █▀▀ █▀█
+█ █░▀█ ▄█ ░█░ █▀█ █▄█ █▀▄ █▀█ █░▀░█   █▀█ █▄▄ █▄▄ █▄█ █▄█ █░▀█ ░█░   ░█░ █▀█ █░█ ██▄ █▄█ ▀▄▀ ██▄ █▀▄
+
+                        calfcrusher@inventati.org | for educational use only
+                        
+        \x1b[0m""")
+
+    time.sleep(5)
     checkurl()
 
 

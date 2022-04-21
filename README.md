@@ -1,6 +1,6 @@
 # InstagramAccountTakeover
 
-This tool generates random reset URLs and check if still valid for account takeover.
+This tool generates random reset account URLs and check if they still valid for a complete Instagram account takeover.
 
 ### USAGE:
 

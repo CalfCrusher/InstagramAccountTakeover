@@ -12,13 +12,15 @@ This tool generates random reset account URLs and check if they still valid for 
 
 ### HOW IT WORKS:
 
-This tool generates infinite URIs, call them and check status code. If 301 then our link is valid -but could be expired- so we could takeover an account. If 302 our link is not valid.
-
 When you try to reset your Instagram Password you are prompted for an email or a phone number.
 
-Then you will receive a link like: *https://ig.me/TXGiR6ctW0hAO9f*
+Then you will receive a link like: https://ig.me/TXGiR6ctW0hAO9f
 
-Following this link you prompted to reset your password or just skip it and go to your account directly without changing password, like many people do. If this happens the link will remain valid! (i guess for 24 hours)
+Following this link you have the possibility to reset your password OR just skip and go to your account directly, like many people do.
+
+If this happens the link will remain valid! (i guess for 24 hours)
+
+This tool generates infinite URIs, call them and check status code. If 301 then our link is valid -but could be expired- so we could takeover an account. If 302 our link is not valid.
 
 ### DISCLAIMER
 

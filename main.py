@@ -49,8 +49,8 @@ def checkurl():
         print("[+] REQUEST " + uri)
         if response.status_code == 301:
             print('\n')
-            print(colored("\t[+] LINK IS VALID: " + uri), 'red')
-            print(colored("\t[+] URL TO FOLLOW: " + response.headers['location']), 'red')
+            print(colored("[+] LINK IS VALID: " + uri), 'red')
+            print(colored("[+] URL TO FOLLOW: " + response.headers['location']), 'red')
             break
 
 

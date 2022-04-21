@@ -18,7 +18,7 @@ When you try to reset your Instagram Password you are prompted for an email or a
 
 Then you will receive a link like: *https://ig.me/TXGiR6ctW0hAO9f*
 
-Following this link you prompted to reset your password or just skip it and go to your account directly without changing password, like many people do.
+Following this link you prompted to reset your password or just skip it and go to your account directly without changing password, like many people do. If this happens the link will remain valid! (i guess for 24 hours)
 
 ### DISCLAIMER
 

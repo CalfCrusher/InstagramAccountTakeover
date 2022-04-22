@@ -16,7 +16,7 @@ def handler(signum, frame):
         exit(1)
 
 
-def get_random_password():
+def get_random_string():
     """Generate random password of 15 chars length, using a-z, A-Z and 0-1 charset"""
 
     random_source = string.ascii_letters + string.digits
@@ -44,7 +44,7 @@ def checkurl():
     signal.signal(signal.SIGINT, handler)
 
     while True:
-        uri = "https://ig.me/" + get_random_password()
+        uri = "https://ig.me/" + get_random_string()
         response = requests.get(uri, allow_redirects=False)
         print("[+] REQUEST " + uri)
         if response.status_code == 301:

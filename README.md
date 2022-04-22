@@ -20,7 +20,7 @@ Following this link you have the possibility to reset your password OR just skip
 
 **If this happens the link will remain valid! It doesn't expire neither after 24 hours... that's crazy.**
 
-This tool generates infinite URIs, call them and check status code. If 301 then our link is valid -but could be expired- so we could takeover an account. If 302 our link is not valid.
+So, this tool generates infinite URIs, call them and check status code. If 301 then our link is valid -but could be expired!- so if user didn't change his password we could takeover the account. If 302 our link is not valid.
 
 ### DISCLAIMER
 

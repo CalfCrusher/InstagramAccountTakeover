@@ -17,7 +17,7 @@ def handler(signum, frame):
 
 
 def get_random_string():
-    """Generate random password of 15 chars length, using a-z, A-Z and 0-1 charset"""
+    """Generate random string of 15 chars length, using a-z, A-Z and 0-1 charset"""
 
     random_source = string.ascii_letters + string.digits
     # select 1 lowercase
